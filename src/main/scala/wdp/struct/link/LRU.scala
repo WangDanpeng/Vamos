@@ -77,7 +77,7 @@ class LRU(length: Int){
     (t, per)
   }
 
-  def print() ={
+  def print(): Unit ={
     var t = head
     while (t != null) {
       println(t.data)
