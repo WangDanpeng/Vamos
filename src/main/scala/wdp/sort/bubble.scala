@@ -1,5 +1,9 @@
 package wdp.sort
 
+/**
+  * 冒泡排序
+  * 时间复杂度较短的实现方式
+  */
 object bubble {
   def main(args: Array[String]): Unit = {
     val array = Array(9, 5, 2, 7, 1, 2, 3, 8)

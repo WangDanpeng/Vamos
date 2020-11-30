@@ -35,6 +35,9 @@ class SingleLink{
 
 }
 
+/**
+  * 单链表反转
+  */
 object ReverseSingleLink{
   def main(args: Array[String]): Unit = {
     val s = new SingleLink()

@@ -88,8 +88,10 @@ class LRU(length: Int){
 
 }
 
+/**
+  * 基于单链表实现的LRU缓存算法
+  */
 object LRU {
-
   def main(args: Array[String]): Unit = {
     // 测试
     val r = new LRU(4)
